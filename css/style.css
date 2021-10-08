@@ -1,2 +1,78 @@
- .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+   --Moderate-violet: hsl(263, 55%, 52%);
+   --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+   --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+   --White: hsl(0, 0%, 100%);
+   --Light-gray: hsl(0, 0%, 81%);
+   --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+body{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   background-color: var(--Light-grayish-blue);
+}
+article{
+   margin: auto;
+   width: 270px;
+   margin-bottom: 25px;
+   padding: 25px 30px 35px 30px;
+   max-width: 500px;
+   border-radius: 8px;
+}
+article img{
+   border-radius: 100%;
+   height: 34px;
+
+}
+.name{
+   display: flex;
+   width: 160px;
+   max-height: 40px;
+   align-items: center;  
+}
+article h1
+{
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+article h2
+{
+   margin: 0 0 0 15px;
+   font-size: 14px;
+   opacity: 0.5;
+}
+article h3{
+   font-size: 20px;
+   margin: 17px 0;
+}
+article p{
+   font-size: 14px;
+   opacity: 0.5;
+   margin: 0;
+}
+.daniel{
+   background-color: var(--Moderate-violet);
+   background-image: url("../images/bg-pattern-quotation.svg");
+   background-repeat: no-repeat;
+   background-position:90% 0%;
+   margin-top: 72px;
+   color: var(--Light-grayish-blue);
+}
+.jonathan{
+   background-color: var(--Very-dark-grayish-blue);
+   color: var(--Light-grayish-blue);
+}
+.jeanette{
+   background-color: white;
+}
+.patrick{
+   background-color: var(--Very-dark-blackish-blue);
+   color: var(--Light-grayish-blue);
+}
+.kira{
+   background-color: white;
+}
